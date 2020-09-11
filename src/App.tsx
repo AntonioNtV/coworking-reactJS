@@ -1,13 +1,13 @@
 import React from 'react';
 import GlobalSytle from './styles/global';
 import AppProvider from './hooks';
-import Signin from './pages/Signin/Signin';
+import Signup from './pages/Signup/index';
 
 const App: React.FC = () => (
   <>
     <GlobalSytle />
     <AppProvider>
-      <Signin />
+      <Signup />
     </AppProvider>
   </>
 );
