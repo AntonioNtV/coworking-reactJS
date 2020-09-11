@@ -21,13 +21,13 @@ const Container = styled.div<ContainerProps>`
     `}
     ${(props) => props.isFilled && css`
       svg {
-        color: #FF9000
+        color: #F02D3A;
       }
     `}
     ${(props) => props.isFocused && css`
-      border-color: #FF9000;
+      border-color: #F02D3A;
       svg {
-        color: #FF9000
+        color: #F02D3A;
       }
     `}
     & + div {
