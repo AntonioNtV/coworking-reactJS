@@ -1,7 +1,12 @@
 import React from 'react';
+import Signin from './pages/Signin';
+import GlobalSytle from './styles/global';
 
-function App() {
-  return <h1>Hello World</h1>;
-}
+const App: React.FC = () => (
+  <>
+    <GlobalSytle />
+    <Signin />
+  </>
+);
 
 export default App;
