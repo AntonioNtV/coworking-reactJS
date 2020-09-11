@@ -1,11 +1,14 @@
 import React from 'react';
-import Signin from './pages/Signin';
 import GlobalSytle from './styles/global';
+import AppProvider from './hooks';
+import Signin from './pages/Signin/Signin';
 
 const App: React.FC = () => (
   <>
     <GlobalSytle />
-    <Signin />
+    <AppProvider>
+      <Signin />
+    </AppProvider>
   </>
 );
 
