@@ -1,7 +1,7 @@
 import React, { useRef, useCallback } from 'react';
 import { FiLogIn, FiMail, FiLock } from 'react-icons/fi';
 import { Form } from '@unform/web';
-import { Link, useHistory } from 'react-router-dom';
+import { useHistory } from 'react-router-dom';
 
 import { FormHandles } from '@unform/core';
 import * as Yup from 'yup';
@@ -65,7 +65,7 @@ const Signin: React.FC = () => {
       <Content>
         <AnimationContainer>
           <Form ref={formRef} onSubmit={handleSubmit}>
-            <h1>Faça seu logon</h1>
+            <h1>Faça seu Login</h1>
             <Input name="email" icon={FiMail} placeholder="E-mail" />
             <Input name="password" icon={FiLock} type="password" placeholder="Senha" />
             <Button type="submit">Entrar</Button>

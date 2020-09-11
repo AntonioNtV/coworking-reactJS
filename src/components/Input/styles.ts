@@ -8,14 +8,14 @@ interface ContainerProps {
 }
 
 const Container = styled.div<ContainerProps>`
-    background: #232129;
+    background: #273043;
     border-radius: 10px;
-    border: 2px solid #232129;
+    border: 2px solid #EFF6EE;
     padding: 16px;
     width: 100%;
     display: flex;
     align-items: center;
-    color: #666360;
+    color: #EFF6EE;
     ${(props) => props.isErrored && css`
       border-color: #c53030;
     `}
@@ -39,7 +39,7 @@ const Container = styled.div<ContainerProps>`
       border: 0;
       color: #F4EDE8;
       &::placeholder {
-        color: #666360;
+        color: #EFF6EE;
       }
     }
     svg {

@@ -39,12 +39,12 @@ const AnimationContainer = styled.div`
   > a {
       display: flex;
       align-items: center;
-      color: #FF9000;
+      color: #F02D3A;
       text-decoration: none;
       margin-top: 24px;
       transition: color 0.2s;
       &:hover {
-        color: ${shade(0.2, '#FF9000')}
+        color: ${shade(0.2, '#F02D3A')}
       }
       svg {
         margin-right: 18.5px;

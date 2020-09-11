@@ -8,7 +8,7 @@ const Container = styled.button`
       border: 0;
       padding: 0 16px;
       width: 100%;
-      color: #312e38;
+      color: #EFF6EE;
       font-weight: 500;
       margin-top: 16px;
       transition: background-color 0.2s;
